@@ -1,5 +1,5 @@
 layout: stacked
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -17,21 +17,18 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: stars
-  # sort_by options:
-  #   - pushed
-  #   - stars
+  sort_by: pushed
   limit: 6
   exclude:
     forks: false
     projects:
     # - repo-name
 
-  social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
-    linkedin: nschhina
+  linkedin: nschhina
   # medium: @your_username
   # stackoverflow: your_user_id
   # telegram: your_username
@@ -44,10 +41,10 @@ topics:
     web_url: https://github.com/topics/kubernetes
     image_url: https://raw.githubusercontent.com/github/explore/46beb428f6ba77f5de33ba7633402379aba5d92d/topics/kubernetes/kubernetes.png
 
-  - name: Go
+  - name: Golang
     web_url: https://github.com/topics/golang
     image_url: https://raw.githubusercontent.com/github/explore/424902f9441eeb28663ad3f45e25398ac3445c79/topics/go/go.png
 
-  - name: Go
-    web_url: https://github.com/topics/golang
-    image_url: https://raw.githubusercontent.com/github/explore/424902f9441eeb28663ad3f45e25398ac3445c79/topics/go/go.png
+  - name: Infrastructure
+    web_url: https://github.com/topics/infrastructure
+    image_url: https://raw.githubusercontent.com/github/explore/fbceb94436312b6dacde68d122a5b9c7d11f9524/topics/aws/aws.png
